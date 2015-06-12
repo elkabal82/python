@@ -3,10 +3,12 @@
 
 # Solo es el famoso hola mundo
 def saludo():
-
- 	nombre = raw_input("Hola, Cual es tu nombre: ")
+	'''Es un saludo de Bienvenida'''
+	#pide y almacena la información en la variable nombre
+ 	nombre = raw_input("Hola, Cual es tu nombre: ") 
  	print "Hola", nombre, "bienvenido a mi primer script"
- 	raw_input()
+ 	#Lo usamos para un salto de linea
+ 	raw_input() 
  
-saludo()
+saludo() #llamamos a la funcion
 print "hola mundo"
