@@ -15,6 +15,18 @@ def confirmacion(palabra):
 		print "perfecto"
 		return palabra
 	else:
-		print "ingresa una palabra, si espacios, ni numeros"
+		print "ingresa una palabra, sin espacios, ni numeros"
+
+def traduccion(palabra):
+	"""Hace el cambio de la palabra"""
+	add = "ei"
+	print "Ahora vamos a cambiar tu palabra"
+	if palabra[0] == "a" or palabra[0] == "e" or palabra[0] == "i" or palabra[0] == "o" or palabra[0] == "u":
+		palabra = palabra + add
+		print palabra
+	else:
+		letra = palabra[0]
+		palabra = palabra[1:] + letra + add 
+		print palabra
 		
 

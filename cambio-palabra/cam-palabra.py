@@ -11,5 +11,9 @@
 import modulos
 
 palabra = modulos.saludo()
-print palabra
-modulos.confirmacion(palabra)
+palabra2 = modulos.confirmacion(palabra)
+#print palabra2
+if palabra2 != None:
+	modulos.traduccion(palabra2)
+else:
+	print "no es una palabra correcta"
