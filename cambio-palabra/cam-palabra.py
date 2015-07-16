@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!/usr/bin/env python
 #-*-encoding:utf-8-*-
 
 #Este escrip consiste en que, tienen que ingresar una palabra y el scrip 
@@ -8,3 +8,7 @@
 #2.-Si temina en consonante, se quita la primera letra y se coloca al final de
 #la palabra + el "ie"
 
+import modulos
+
+palabra = modulos.saludo()
+print palabra
