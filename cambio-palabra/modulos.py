@@ -9,6 +9,7 @@ def saludo():
 
 
 def confirmacion(palabra):
+	"""Valida la palabra"""
 	palabra = palabra.lower()
 	if len(palabra) != 0 and palabra.isalpha() == True:
 		print "perfecto"
