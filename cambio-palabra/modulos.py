@@ -8,3 +8,12 @@ def saludo():
 	return palabra
 
 
+def confirmacion(palabra):
+	palabra = palabra.lower()
+	if len(palabra) != 0 and palabra.isalpha() == True:
+		print "perfecto"
+		return palabra
+	else:
+		print "ingresa una palabra, si espacios, ni numeros"
+		
+

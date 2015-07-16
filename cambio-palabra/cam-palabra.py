@@ -12,3 +12,4 @@ import modulos
 
 palabra = modulos.saludo()
 print palabra
+modulos.confirmacion(palabra)
