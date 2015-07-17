@@ -7,6 +7,7 @@
 #"ie"
 #2.-Si temina en consonante, se quita la primera letra y se coloca al final de
 #la palabra + el "ie"
+#NOTA: esta idea fue sacada de www.codecademy.com
 
 import modulos
 
